@@ -28,7 +28,7 @@ public class Solution {
         }
         // 依次判断是否相等
         while (curA != null && curB != null) {
-            if (curA.val == curB.val) {
+            if (curA == curB) {
                 return curA;
             }
             curA = curA.next;
